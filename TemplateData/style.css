@@ -1,0 +1,17 @@
+body { padding: 0; margin: 0; background: #EA5B0C url(background.jpg) no-repeat; }
+#title {font: 2em Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; color:white; text-align: center}
+#unity-container { background-color: transparent; position: absolute }
+#unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
+#unity-container.unity-mobile { width: 100%; height: 100% }
+#unity-canvas { background: #231F20 }
+.unity-mobile #unity-canvas { width: 100%; height: 100% }
+#unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
+#unity-logo {width: 500px; height: 250px; background: url('unity-logo-dark.png') no-repeat center }
+#unity-progress-bar-empty { width: 290px; height: 18px; margin-top: 10px; margin-left: 105px; background: url('progress-bar-empty-dark.png') no-repeat center }
+#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; margin-left: 75px; background: url('progress-bar-full-dark.png') no-repeat }
+#unity-footer { position: relative }
+.unity-mobile #unity-footer { display: none }
+#unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
+#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 18px }
+#unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
+#unity-mobile-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
